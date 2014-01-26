@@ -1,0 +1,148 @@
+/**
+ * Main stylesheet
+ */
+@import url(links.css);
+
+/**
+ * General elements
+ */
+body {
+ background: -webkit-linear-gradient(#900, #C00); /* For Safari */
+background: -o-linear-gradient(red, darkred); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#FFFFBF, #FFF); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#800000), #F99); /* Standard syntax (must be last) */
+
+/*background: -moz-repeating-radial-gradient(red, yellow 10%, green 15%);*/
+
+  font: 100.01%/1.375 arial, sans-serif;
+}
+
+/**
+ * Typography
+ */
+h1 {
+	
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+}
+/*h1:first-letter {
+    color: #600;
+}*/
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+  height: 80px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy, italic;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+  
+}
+.sitelogo{
+	position: absolute;
+	height: 80px;
+	width:100px;
+	
+}
+
+
+/**
+ * Layout for navigation bar / menu
+*/ 
+#navbar {
+  margin-bottom: 2em;
+  
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+.readable {
+  width: 70%;
+  padding-right: 1em;
+ /* border-right: 1px solid #ccc;*/
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * Byline
+*/ 
+.byline {
+	clear: both;
+  border-top: 1px dashed #ccc;
+  font-style: italic;
+}
+
+
+/**
+ * Figure
+ */
+figure {
+    text-align: center;
+    float: left;
+    padding-right: 10px;
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: smaller;
+    padding-left: 1em;
+}
+/*
+figure.right {
+  float: right;
+}
+*/
+.right {
+  float: right;
+  padding: 5px;
+
+}
+
+

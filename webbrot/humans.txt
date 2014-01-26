@@ -1,0 +1,1 @@
+Tamara is a PHP-boilerplate/framework for small websites. Tamara was built by Tanja Tchoumak (tanja.t@hotmail.se) as part of stading web programming i september 2013. It was published at GitHub: https://github.com/tanjatch/Tamara-base.
